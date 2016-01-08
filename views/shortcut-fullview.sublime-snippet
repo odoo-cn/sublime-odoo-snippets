@@ -8,7 +8,7 @@
     - Context·······: ${5:\{\}}
     - Parent menu ··: ${6:base.menu_custom}
     - View priority·: ${7:16}    Sequence····: ${8:10}
-    - Action help···: ${9:There are not any record for ${3/(.)/$1/g}}
+    - Action help···: ${9:Something about ${2/(.)/$1/g}}
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 <!-- Tree view for "${2/(.)/\1/g}" -->
