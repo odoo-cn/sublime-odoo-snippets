@@ -21,7 +21,7 @@
     <field name="active" eval="True" />
     <field name="arch" type="xml">
         <tree string="${2/\./\_/g}_tree" create="1" delete="1" edit="1">
-            <field name="${3/(.)/\1/g}" string="${3/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}" />
+            <field name="${3/(.)/\1/g}" />
             ${0:<!-- ··· -->}
         </tree>
     </field>
@@ -78,7 +78,7 @@
     <field name="domain">${4/(.)/\1/g}</field>
     <field name="context">${5/(.)/\1/g}</field>
     <field name="search_view_id" ref="view_${2/\./\_/g}_search" />
-    <field name="help">
+    <field name="help" type="html">
         <p class="oe_view_nocontent_create">
             Click to add new ${1/(.)/\1/g}
         </p><p>
