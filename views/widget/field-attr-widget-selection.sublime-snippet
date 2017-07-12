@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+widget="${1:selection}"
+]]></content>
+    <tabTrigger>widget/selection</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr widget selection</description>
+</snippet>

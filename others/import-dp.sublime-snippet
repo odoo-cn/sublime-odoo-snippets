@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+import odoo.addons.decimal_precision as dp
+${0}
+]]></content>
+    <tabTrigger>import/dp</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

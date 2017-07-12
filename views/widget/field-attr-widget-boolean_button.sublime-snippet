@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+widget="${1:boolean_button}"
+]]></content>
+    <tabTrigger>widget/boolean_button</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr widget boolean_button</description>
+</snippet>

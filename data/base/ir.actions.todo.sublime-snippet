@@ -9,7 +9,7 @@
     <field name="note">${6:Something about ${1}}</field>}
 </record>${0}
 ]]></content>
-    <tabTrigger>ir.actions.todo</tabTrigger>
+    <tabTrigger>record/ir.actions.todo</tabTrigger>
     <scope>text.xml</scope>
     <definition>Common ir.actions.todo record definition</definition>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(0, False, ${1:{values}})
+]]></content>
+    <tabTrigger>x2m/create</tabTrigger>
+    <scope>source.python meta.structure.dictionary-or-set.python</scope>
+    <description>x2m create</description>
+</snippet>

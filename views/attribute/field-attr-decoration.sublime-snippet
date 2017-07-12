@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+decoration-${1:info}="${2:field} == ${3:value}"${0}
+]]></content>
+    <tabTrigger>decoration</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr decoration</description>
+</snippet>
+<!-- 
+Values are Python expressions
+
+#bootstrap contextual color
+info
+muted
+primary
+success
+warning
+danger
+
+#font
+bf
+it
+
+ -->

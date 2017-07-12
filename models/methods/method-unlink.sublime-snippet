@@ -15,7 +15,7 @@ def unlink(self):
 
     return result
 ]]></content>
-    <tabTrigger>crud</tabTrigger>
+    <tabTrigger>method/unlink</tabTrigger>
     <scope>source.python</scope>
     <description>unlink method signature</description>
 </snippet>

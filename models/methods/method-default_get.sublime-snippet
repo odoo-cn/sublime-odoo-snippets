@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+@api.model
+def default_get(self, fields):
+    res = super(${1:ModelClass}, self).default_get(fields)
+    ${0}
+
+    return res
+    
+]]></content>
+    <tabTrigger>method/default_get</tabTrigger>
+    <scope>source.python</scope>
+    <description>default_get method signature</description>
+</snippet>

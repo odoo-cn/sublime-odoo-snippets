@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+ref="${1:module.external_id}"${0}
+]]></content>
+    <tabTrigger>ref</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr ref</description>
+</snippet>

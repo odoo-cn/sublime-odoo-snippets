@@ -14,5 +14,5 @@ class ${1:ControllerName}(Controller):
 ]]></content>
     <tabTrigger>controller</tabTrigger>
     <scope>source.python</scope>
-    <description>Controller</description>
+    <description>Odoo web controller class</description>
 </snippet>

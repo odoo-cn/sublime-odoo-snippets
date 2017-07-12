@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(5, False, False)
+]]></content>
+    <tabTrigger>x2m/unlink_all</tabTrigger>
+    <scope>source.python meta.structure.dictionary-or-set.python</scope>
+    <description>x2m unlink all, don't use in create()</description>
+</snippet>

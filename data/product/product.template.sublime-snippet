@@ -17,7 +17,7 @@ ${13:    <field name="image" type="base64" file="${12:module_name/static/img/fil
 }${17:    <field name="ean13">${16:0000000000000}</field>
 }</record>${0}
 ]]></content>
-    <tabTrigger>product.template</tabTrigger>
+    <tabTrigger>record/product.template</tabTrigger>
     <scope>text.xml</scope>
     <description>XML product.template record</description>
 </snippet>

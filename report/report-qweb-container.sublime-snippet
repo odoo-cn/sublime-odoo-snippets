@@ -15,4 +15,5 @@
 ]]></content>
     <tabTrigger>t</tabTrigger>
     <scope>text.xml</scope>
+    <description>Report qweb container</description>
 </snippet>

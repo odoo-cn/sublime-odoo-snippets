@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+###############################################################################
+#    License, author and contributors information in:                         #
+#    __manifest__.py file at the root folder of this module.                  #
+###############################################################################
+
+from odoo import models, fields, api, _
+from odoo.exceptions import UserError, ValidationError
+${0}
+]]></content>
+    <tabTrigger>file/model</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo model file</description>
+</snippet>
+

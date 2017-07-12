@@ -1,16 +1,10 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Text(
-    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ $4)/g}}',
-    required=${3:False},
-    readonly=${4:False},
-    index=${5:False},
-    default=${6:None},
-    help=${7:False},
-    translate=${8:True}
+    string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
 )${0}
 ]]></content>
     <tabTrigger>fields.Text</tabTrigger>
     <scope>source.python</scope>
-    <description>Common definition for field type Text</description>
+    <descriptio>Field type: Text</description>
 </snippet>

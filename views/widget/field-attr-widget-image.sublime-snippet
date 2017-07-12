@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+widget="${1:image}"
+]]></content>
+    <tabTrigger>widget/image</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr widget image</description>
+</snippet>

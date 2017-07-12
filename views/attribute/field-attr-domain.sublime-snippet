@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+domain="[('${1:name}', '=', ${1})]"
+]]></content>
+    <tabTrigger>domain</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr domain</description>
+</snippet>

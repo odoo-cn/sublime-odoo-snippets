@@ -8,7 +8,7 @@
     <field name="parent_id" ref="${5:ir.module.category}" />}
 </record>${0}
 ]]></content>
-    <tabTrigger>ir.module.category</tabTrigger>
+    <tabTrigger>record/ir.module.category</tabTrigger>
     <scope>text.xml</scope>
     <description>XML ir.model.category record</description>
 </snippet>

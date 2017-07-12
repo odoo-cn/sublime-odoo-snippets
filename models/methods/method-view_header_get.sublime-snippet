@@ -6,7 +6,7 @@ def view_header_get(self, view_id=None, view_type='form'):
 
     ${0:return False}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>method/view_header_get</tabTrigger>
     <scope>source.python</scope>
     <description>view_header_get method signature</description>
 </snippet>

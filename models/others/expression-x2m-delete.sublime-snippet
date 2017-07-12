@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(2, ${1:id}, False)
+]]></content>
+    <tabTrigger>x2m/delete</tabTrigger>
+    <scope>source.python meta.structure.dictionary-or-set.python</scope>
+    <description>x2m delete, don't use in create()</description>
+</snippet>

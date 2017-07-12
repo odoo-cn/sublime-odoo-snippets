@@ -9,23 +9,29 @@ class ${1:ModelName}(models.Model):
     """
 
     _name = '${3:${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}}'
-    _description = u'${4:${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \l$3)/g}}'
+    _description = u'${4:${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \u$3)/g}}'
 
     _rec_name = 'name'
     _order = 'name ASC'
 
     name = fields.Char(
-        string='Name',
+        string=u'名称',
         required=True,
-        readonly=False,
-        index=True,
-        default=None,
-        help=False,
-        size=50,
-        translate=True
-    )${0}
+        default=lambda self: _('New'),
+        copy=False
+    )
+
+    company_id = fields.Many2one(
+        string=u'公司', 
+        comodel_name='res.company', 
+        required=True, 
+        default=lambda self: self.env.user.company_id
+    )
+
+
+    ${0}
 ]]></content>
-    <tabTrigger>models.Model</tabTrigger>
+    <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo generic model class</description>
 </snippet>

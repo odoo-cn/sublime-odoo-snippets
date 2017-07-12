@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<filter string="归档" name="inactive" domain="[('active','=',False)]"/>
+${0}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>filter/archive</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>Filter archived</description>
+</snippet>

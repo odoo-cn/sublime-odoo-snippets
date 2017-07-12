@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<group expand="0" string="Group By">
+    <filter name="group_by_${1:user_id} "string="${2:User}" context="{'group_by':'${1}'}" help="${3}"/>
+    ${0}
+</group>
+
+]]></content>
+    <tabTrigger>group_by</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

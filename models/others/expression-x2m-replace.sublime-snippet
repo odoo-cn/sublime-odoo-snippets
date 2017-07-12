@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(6, False, ${1:ids)
+]]></content>
+    <tabTrigger>x2m/replace</tabTrigger>
+    <scope>source.python meta.structure.dictionary-or-set.python</scope>
+    <description>x2m replace, don't use in create() and One2many</description>
+</snippet>

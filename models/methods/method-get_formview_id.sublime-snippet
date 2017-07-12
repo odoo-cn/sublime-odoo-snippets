@@ -10,7 +10,7 @@ def get_formview_id(self):
 
     ${0:return False}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>method/get_formview_id</tabTrigger>
     <scope>source.python</scope>
     <description>get_formview_id method signature</description>
 </snippet>

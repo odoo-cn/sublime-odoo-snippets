@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+'utm.mixin'${0}
+]]></content>
+    <tabTrigger>feature/utm</tabTrigger>
+    <scope>source.python meta.structure.list.python</scope>
+    <description>Adds utm support</description>
+</snippet>

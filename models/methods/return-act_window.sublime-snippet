@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+return {
+    'name': _('${1: Human Readable String}'),
+    'type': 'ir.actions.act_window',
+    'view_type': 'form',
+    'view_mode': 'tree,form',
+    'res_model': '${2:model}',
+    'domain': [('id', 'in', ${3:ids})],
+}${0}
+]]></content>
+    <tabTrigger>return/act_window</tabTrigger>
+    <scope>source.python</scope>
+    <description>pop window</description>
+</snippet>

@@ -6,7 +6,7 @@ def view_init(self, fields_list):
 
     ${0:pass}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>method/view_init</tabTrigger>
     <scope>source.python</scope>
     <description>view_init method signature</description>
 </snippet>

@@ -7,7 +7,7 @@
     <field name="info">${4:Description}</field>
 </record>${0}
 ]]></content>
-    <tabTrigger>ir.model</tabTrigger>
+    <tabTrigger>record/ir.model</tabTrigger>
     <scope>text.xml</scope>
     <description>Common record definition for ir.model</description>
 </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<button name="action_confirm" string="确认" type="object" states="draft" />
+<button name="action_draft" string="设草稿" type="object" states="cancel" />
+<button name="action_close" string="关闭" type="object" states="confirmed" />
+<button name="action_cancel" string="取消" type="object" states="draft,close" />
+<field name="state" widget="statusbar" />
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>states</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>Adds state support</description>
+</snippet>

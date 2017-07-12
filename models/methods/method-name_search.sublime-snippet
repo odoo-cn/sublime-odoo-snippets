@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+@api.model
+def name_search(self, name, args=None, operator='ilike', limit=100):
+    args = args or []
+    domain = []
+    if name:
+        domain = [
+            '|', ('${1:field_name}', '=ilike', name), ('${2:field_name}', operator, name)
+        ]
+        if operator in expression.NEGATIVE_TERM_OPERATORS:
+            domain = ['&', '!'] + domain[1:]
+    records = self.search(domain + args, limit=limit)
+    return records.name_get()
+
+${0}
+]]></content>
+    <tabTrigger>method/name_search</tabTrigger>
+    <scope>source.python</scope>
+    <description>name_search method signature</description>
+</snippet>

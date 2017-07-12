@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@api.constrains('${1}')
+def _check_${1}(self):
+    for record in self:
+        ${0}
+]]></content>
+    <tabTrigger>constraints</tabTrigger>
+    <scope>source.python</scope>
+    <description>Model Python contraints</description>
+</snippet>

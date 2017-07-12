@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+filter_domain="[('${1:name}', '=', ${1})]"
+]]></content>
+    <tabTrigger>filter_domain</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr filter_domain</description>
+</snippet>

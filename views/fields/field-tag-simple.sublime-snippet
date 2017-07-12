@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<field name="${1:name}" />${0}
+]]></content>
+    <tabTrigger>field</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Simple field tag</description>
+</snippet>

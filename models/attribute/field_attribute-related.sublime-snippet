@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+related='${1:field_name}',
+readonly=True,
+store=True${0}
+]]></content>
+    <tabTrigger>related</tabTrigger>
+    <scope>source.python meta.function-call.python meta.function-call.arguments.python</scope>
+    <description>Field attribute: related</description>
+</snippet>
+

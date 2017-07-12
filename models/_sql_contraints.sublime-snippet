@@ -8,7 +8,7 @@ _sql_constraints = [
     )${4}
 ]${0}
 ]]></content>
-    <tabTrigger>_sql_constraints</tabTrigger>
+    <tabTrigger>constraints</tabTrigger>
     <scope>source.python</scope>
-    <description>Module SQL contraints</description>
+    <description>Model SQL contraints</description>
 </snippet>

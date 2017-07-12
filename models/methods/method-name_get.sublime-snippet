@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+@api.multi
+@api.depends('name', '${1:ref}')
+def name_get(self):
+    result = []
+    for record in self:
+        if record.${1:ref}:
+            name = '[' + record.${1:ref} + '] ' + record.name
+        else:
+            name = record.name
+        result.append((record.id, name))
+    return result
+${0}
+]]></content>
+    <tabTrigger>method/name_get</tabTrigger>
+    <scope>source.python</scope>
+    <description>name_get method signature</description>
+</snippet>

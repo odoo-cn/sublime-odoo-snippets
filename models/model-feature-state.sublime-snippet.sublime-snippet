@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+state = fields.Selection(
+    string=u'State',
+    selection=[('draft', 'Draft'), ('confirmed', 'Confirmed'),  ('close', 'Close'),  ('cancel', 'Cancel')],
+    default='draft',
+    readonly=True,
+)
+
+@api.multi
+def action_confirm(self):
+    self.write({'state': 'confirmed'})
+
+@api.multi
+def action_draft(self):
+    self.write({'state': 'draft'})
+
+@api.multi
+def action_cancel(self):
+    self.write({'state': 'cancel'})
+
+@api.multi
+def action_close(self):
+    self.write({'state': 'close'})
+
+${0}
+]]></content>
+    <tabTrigger>model/states</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds state support</description>
+</snippet>

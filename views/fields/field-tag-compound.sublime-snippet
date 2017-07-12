@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<label for="${1:product_qty}"/>
+<div class="o_row">
+    <field name="${1:product_qty}"/>
+    <field name="${2:product_uom_id}"/>
+</div> ${0}
+]]></content>
+    <tabTrigger>field/compound</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Compound field</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+@api.multi
+def toggle_active(self):
+    return {'warning': {
+                    'title': _("Warning"),
+                    'message': _(u"不允许对此模型的记录进行“归档”操作！") ,
+    }}
+${0}
+]]></content>
+    <tabTrigger>method/toggle_active</tabTrigger>
+    <scope>source.python</scope>
+    <description>toggle_active method signature</description>
+</snippet>

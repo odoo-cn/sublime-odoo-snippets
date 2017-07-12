@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<page string="${1:Title}" >
+    ${0}
+</page>
+]]></content>
+    <tabTrigger>page</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

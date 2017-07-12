@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+line_number = fields.Integer(string=u'行号', default=10)
+
+@api.model
+def default_get(self, fields):
+    default_values = super(${1:ModelClass}, self).default_get(fields)
+
+    line_ids = self.env.context.get('${2:line_ids}', False)
+    if line_ids:
+        lines = self.env['${3:model}'].resolve_2many_commands(
+            '${2:line_ids}', line_ids
+        )
+        lines.sort(key=lambda x:x.get('line_number'))
+
+        if lines:
+            sequence = lines[-1]['line_number'] + 10
+        else:
+            sequence = 10
+
+        default_values.update({'line_number': sequence})
+
+    return default_values
+
+]]></content>
+    <tabTrigger>sequence/line_number</tabTrigger>
+    <scope>source.python</scope>
+    <description>Line Number Add 10 automaticlly</description>
+</snippet>

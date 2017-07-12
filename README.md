@@ -1,4 +1,4 @@
-Several snippets to be used with Sublime 3 in Odoo v8 developments
+Several snippets to be used with Sublime 3 for Odoo developments with new_api
 
 ## Installation
 

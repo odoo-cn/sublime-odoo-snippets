@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ModelName}(models.AbstractModel):
+    _name = '${3:${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}}'
+
+    ${0}
+]]></content>
+    <tabTrigger>model/abstract</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo abstract model class</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(4, ${1:id}, False)
+]]></content>
+    <tabTrigger>x2m/link</tabTrigger>
+    <scope>source.python meta.structure.dictionary-or-set.python</scope>
+    <description>x2m link, don't use in One2many</description>
+</snippet>

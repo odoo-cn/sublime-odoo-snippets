@@ -18,7 +18,7 @@ def _browse(cls, env, ids):
     ${0}
     return result
 ]]></content>
-    <tabTrigger>crud</tabTrigger>
+    <tabTrigger>method/_browse</tabTrigger>
     <scope>source.python</scope>
     <description>_browse method signature</description>
 </snippet>

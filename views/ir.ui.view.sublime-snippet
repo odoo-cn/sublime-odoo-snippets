@@ -13,7 +13,7 @@
     </field>
 </record>
 ]]></content>
-    <tabTrigger>ir.ui.view</tabTrigger>
+    <tabTrigger>record/ir.ui.view</tabTrigger>
     <scope>text.xml</scope>
     <description>Common ir.ui.view record definition</description>
 </snippet>

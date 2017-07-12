@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+if values.get('name', _('New')) == _('New'):
+    if 'company_id' in values:
+        values['name'] = self.env['ir.sequence'].with_context(
+            force_company=values['company_id']
+        ).next_by_code('${1:model}') or _('New')
+    else:
+        values['name'] = self.env['ir.sequence'].next_by_code(
+            '${1:model}'
+        ) or _('New')
+
+]]></content>
+    <tabTrigger>sequence/next_by_code</tabTrigger>
+    <scope>source.python</scope>
+    <description>next_by_code, used in create()</description>
+</snippet>

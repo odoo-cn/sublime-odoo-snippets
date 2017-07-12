@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(1, ${1:id}, ${2:{values}})
+]]></content>
+    <tabTrigger>x2m/update</tabTrigger>
+    <scope>source.python meta.structure.dictionary-or-set.python </scope>
+    <description>x2m update, don't use in create()</description>
+</snippet>

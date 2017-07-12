@@ -3,11 +3,11 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #    License, author and contributors information in:                         #
-#    __openerp__.py file at the root folder of this module.                   #
+#    __manifest__.py file at the root folder of this module.                   #
 ###############################################################################
 
 from . import ${1:models}${0}
 ]]></content>
-    <tabTrigger>__init__</tabTrigger>
+    <tabTrigger>file/__init__</tabTrigger>
     <scope>source.python</scope>
 </snippet>

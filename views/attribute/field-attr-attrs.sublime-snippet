@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+attrs="{ ${0} }"
+]]></content>
+    <tabTrigger>attrs</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr attrs</description>
+</snippet>

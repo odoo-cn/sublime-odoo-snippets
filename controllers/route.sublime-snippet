@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+""" 
+    Routes:
+      /${1:some_url}: ${2:url description}
+"""
+
+@route('/${1}', type='${3:http}', auth='${4:none}')
+def ${1/((^[A-Z])|([^a-zA-Z]))/(?2:\l$2)(?3:\_)/g}(self${5:, **kw}):
+
+    pass${0}
+]]></content>
+    <tabTrigger>controller/route</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo web controller route</description>
+</snippet>

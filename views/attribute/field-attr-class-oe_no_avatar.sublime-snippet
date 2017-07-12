@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+class="oe_no_avatar"${0}
+]]></content>
+    <tabTrigger>class/oe_no_avatar</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr class oe_no_avatar</description>
+</snippet>

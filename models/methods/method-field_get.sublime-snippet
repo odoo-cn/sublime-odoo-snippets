@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+@api.model
+def fields_get(self, allfields=None, attributes=None):
+    fields_to_hide = []
+    for fname, field in self._fields.items():
+        if fname.startswith('${2:prefix}'):
+            fields_to_hide.append(fname)
+
+    res = super(${1:Model}, self).fields_get(allfields, attributes)
+
+    for field in fields_to_hide:
+
+        res[field]['searchable'] = False
+        res[field]['sortable'] = False
+
+    return res
+${0}
+]]></content>
+    <tabTrigger>method/fields_get</tabTrigger>
+    <scope>source.python</scope>
+    <description>fields_get remove fields from search and groubby</description>
+</snippet>

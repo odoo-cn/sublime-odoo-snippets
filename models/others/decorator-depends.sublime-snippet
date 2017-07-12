@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@api.depends('${1:field}')
+]]></content>
+    <tabTrigger>api/depends</tabTrigger>
+    <scope>source.python</scope>
+    <description>decorator depends</description>
+</snippet>

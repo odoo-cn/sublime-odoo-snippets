@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+widget="${1:statusbar}"
+]]></content>
+    <tabTrigger>widget/statusbar</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr widget statusbar</description>
+</snippet>

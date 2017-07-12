@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+ <field name="state" widget="statusbar" statusbar_visible="draft${0}"/>
+]]></content>
+    <tabTrigger>statusbar</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Include module assets in backend views</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<filter string="本日单据" name="create_date" domain="[('create_date','&gt;=',context_today().strftime('%Y-%m-%d')),('create_date','&lt;',(context_today()+datetime.timedelta(days=1)).strftime('%Y-%m-%d'))]"/>
+<filter string="本周单据" name="create_date" domain="[('create_date','&gt;=',(context_today() - datetime.timedelta(days=context_today().weekday())).strftime('%Y-%m-%d'))]"/>
+<filter string="本月单据" name="create_date" domain="[('create_date','&gt;=',datetime.date(context_today().year,context_today().month,1).strftime('%Y-%m-%d'))]"/>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>filter/latest_by_day</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>Filter list latest order by days</description>
+</snippet>

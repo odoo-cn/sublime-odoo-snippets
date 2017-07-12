@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+'invisible': [('state','not in',('draft'))] ${0}
+]]></content>
+    <tabTrigger>invisible</tabTrigger>
+    <scope>text.xml meta.tag.xml string.quoted.double.xml</scope>
+    <description>field attr attrs invisible</description>
+</snippet>

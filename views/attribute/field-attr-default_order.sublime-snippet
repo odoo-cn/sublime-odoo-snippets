@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+default_order="${1:field},${0}"
+]]></content>
+    <tabTrigger>default_order</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>field attr default_order</description>
+</snippet>
