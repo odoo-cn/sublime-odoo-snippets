@@ -21,7 +21,7 @@
     <field name="priority" eval="${7/(.)/\1/g}" />
     <field name="active" eval="True" />
     <field name="arch" type="xml">
-        <tree string="${2/\./\_/g}_tree" create="1" delete="1" edit="1">
+        <tree string="${2/\./\_/g}_tree" create="true" delete="true" edit="true">
             <field name="${3/(.)/\1/g}" />
 
         </tree>
@@ -37,7 +37,7 @@
     <field name="priority" eval="${7/(.)/\1/g}" />
     <field name="active" eval="True" />
     <field name="arch" type="xml">
-        <form string="${2/\./\_/g}_form" create="1" delete="1" edit="1">
+        <form string="${2/\./\_/g}_form" create="true" delete="true" edit="true">
             <header>
             </header>
             <sheet>

@@ -4,7 +4,7 @@
     ${0}
 </t>
 ]]></content>
-    <tabTrigger>t-foreach</tabTrigger>
+    <tabTrigger>qweb_t-foreach</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb loop</description>
 </snippet>

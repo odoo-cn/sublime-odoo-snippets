@@ -13,7 +13,7 @@
     </field>
 </record>
 ]]></content>
-    <tabTrigger>record/ir.ui.view</tabTrigger>
+    <tabTrigger>record/view</tabTrigger>
     <scope>text.xml</scope>
     <description>Common ir.ui.view record definition</description>
 </snippet>
@@ -23,12 +23,13 @@ HELP:
 
 - Valid view types:
 	- kanban
-	- search
 	- form
-	- diagram
-	- qweb
-	- calendar
 	- tree
+	- graph
+	- pivot
+	- calendar
+	- search
+	- qweb
 
 - Valid modes:
 	- extension

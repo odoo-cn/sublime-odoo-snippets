@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Many2one(
+${1:field_name}_id = fields.Many2one(
     string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
     comodel_name='${8:model.name}',
     ondelete='${11:set null}',

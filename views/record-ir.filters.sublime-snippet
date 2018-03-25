@@ -11,7 +11,7 @@
     <!-- <field name="action_id" ref="" /> -->
 </record>${0}
 ]]></content>
-    <tabTrigger>record/ir.filters</tabTrigger>
+    <tabTrigger>record/filter</tabTrigger>
     <scope>text.xml</scope>
     <description>Common ir.filters record definition</description>
 </snippet>
